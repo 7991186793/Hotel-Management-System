@@ -1,0 +1,58 @@
+/* assets/css/style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa;
+}
+
+.navbar-brand {
+    font-size: 1.6rem !important;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../assets/images/hotel.jpg') center/cover no-repeat;
+    height: 85vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.card-room {
+    transition: all 0.4s ease;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.card-room:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.room-img {
+    height: 240px;
+    object-fit: cover;
+}
+
+.btn-book {
+    background: #e74c3c;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-book:hover {
+    background: #c0392b;
+    transform: scale(1.05);
+}
+
+.table th {
+    background: #2c3e50;
+    color: white;
+}
+
+.badge {
+    font-size: 0.9em;
+    padding: 6px 12px;
+}
